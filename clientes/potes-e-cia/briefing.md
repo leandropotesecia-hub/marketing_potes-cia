@@ -46,6 +46,9 @@ Evitar: gíria forçada e tom muito informal — não combinam com a marca.
 ## Sazonalidade
 Padrão consistente ao longo dos anos (baseado no planejamento de publicações histórico):
 
+### Datas de produto/ocasião
+O que vender em cada época — datas comemorativas e sazonais que puxam demanda por produtos específicos:
+
 - **Início do ano (jan/fev)** — época de colheita de uva (força vinda do RS): garrafas para suco, potes para geleia.
 - **Carnaval (fev)**: garrafas para destilados/bebidas em geral.
 - **Páscoa (mar/abr)**: potes para bolo de pote, brigadeiro e doces de presente.
@@ -55,6 +58,10 @@ Padrão consistente ao longo dos anos (baseado no planejamento de publicações 
 - **Dia dos Pais (agosto)**: garrafas para cerveja artesanal — público majoritariamente masculino.
 - **Dia das Crianças (outubro)**: potes para lembrancinhas e doces (brigadeiro no pote).
 - **Natal / Ano Novo (dezembro)**: pico geral de demanda para ceia, decoração, bebidas e comidas. Há histórico de escassez de estoque nas fábricas por alta demanda de fim de ano — vale antecipar comunicação de reposição de estoque.
+
+### Datas de campanha de marketplace
+Gatilhos promocionais recorrentes, sem ligação com um produto ou ocasião específica:
+
 - **Datas espelhadas mensais (1/1, 2/2, 3/3 ... até 12/12)**: usadas como gatilho promocional recorrente, no padrão comum do e-commerce.
 
 *(Fonte: planilhas de planejamento de publicações — "Planejamento Publicações.xlsx" e "Planejamento Stories e Destaques.xlsx", histórico 2022-2026)*

@@ -20,7 +20,9 @@ Dois perfis principais: varejo artesanal (mel, azeite, velas, conservas) compran
 Direto e comercial, preço sempre em destaque, títulos grandes e impactantes, nomes próprios pras linhas de produto, tom comemorativo em marcos da marca. Evitar gíria forçada e informalidade exagerada.
 
 ## Sazonalidade
-Início de ano (garrafas p/ suco, geleia) → Carnaval (destilados) → Páscoa (potes p/ doces) → Dia das Mães → Festas juninas (garrafas p/ bebidas) → Dia dos Namorados → Dia dos Pais (cerveja artesanal) → Dia das Crianças → Natal/Ano Novo (pico geral, risco de escassez de estoque). Datas espelhadas mensais (1/1, 2/2... 12/12) usadas como gatilho promocional recorrente.
+**Datas de produto/ocasião:** Início de ano (garrafas p/ suco, geleia) → Carnaval (destilados) → Páscoa (potes p/ doces) → Dia das Mães → Festas juninas (garrafas p/ bebidas) → Dia dos Namorados → Dia dos Pais (cerveja artesanal) → Dia das Crianças → Natal/Ano Novo (pico geral, risco de escassez de estoque).
+
+**Datas de campanha de marketplace:** datas espelhadas mensais (1/1, 2/2... 12/12) usadas como gatilho promocional recorrente.
 
 ## Concorrência
 Pendente — não levantado ainda.
