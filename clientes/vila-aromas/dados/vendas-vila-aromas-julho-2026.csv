@@ -1,0 +1,29 @@
+data,produto,categoria,variacao,quantidade,preco_unitario,receita,canal
+2026-07-01,Vela Lavanda,Vela,200g,19,42.00,798.00,Instagram
+2026-07-02,Vela Baunilha,Vela,200g,7,42.00,294.00,Instagram
+2026-07-03,Difusor Vidro Fosco,Difusor,100ml,5,68.00,340.00,Shopify
+2026-07-04,Vela Lavanda,Vela,100g,15,28.00,420.00,Instagram
+2026-07-05,Sabonete Kit 3,Sabonete,Kit de 3,2,54.00,108.00,Instagram
+2026-07-06,Vela Lavanda,Vela,400g,9,68.00,612.00,Shopify
+2026-07-07,Difusor Âmbar,Difusor,100ml,2,72.00,144.00,Instagram
+2026-07-08,Vela Capim-Limão,Vela,200g,5,42.00,210.00,Instagram
+2026-07-09,Vela Lavanda,Vela,200g,21,42.00,882.00,Instagram
+2026-07-10,Vela Cedro,Vela,100g,4,28.00,112.00,Instagram
+2026-07-11,Sabonete Barra Única,Sabonete,Barra única,7,19.00,133.00,Instagram
+2026-07-12,Vela Lavanda,Vela,100g,17,28.00,476.00,Instagram
+2026-07-13,Difusor Vidro Fosco,Difusor,100ml,4,68.00,272.00,Shopify
+2026-07-14,Vela Baunilha,Vela,100g,6,28.00,168.00,Instagram
+2026-07-15,Vela Lavanda,Vela,200g,23,42.00,966.00,Instagram
+2026-07-16,Vela Capim-Limão,Vela,100g,3,28.00,84.00,Instagram
+2026-07-17,Sabonete Kit 3,Sabonete,Kit de 3,3,54.00,162.00,Shopify
+2026-07-18,Vela Lavanda,Vela,400g,8,68.00,544.00,Shopify
+2026-07-19,Difusor Âmbar,Difusor,100ml,1,72.00,72.00,Instagram
+2026-07-20,Vela Cedro,Vela,200g,2,42.00,84.00,Instagram
+2026-07-21,Vela Lavanda,Vela,200g,18,42.00,756.00,Instagram
+2026-07-22,Vela Baunilha,Vela,200g,5,42.00,210.00,Instagram
+2026-07-23,Difusor Vidro Fosco,Difusor,100ml,3,68.00,204.00,Instagram
+2026-07-24,Sabonete Barra Única,Sabonete,Barra única,9,19.00,171.00,Instagram
+2026-07-25,Vela Lavanda,Vela,100g,14,28.00,392.00,Instagram
+2026-07-27,Vela Capim-Limão,Vela,200g,4,42.00,168.00,Instagram
+2026-07-28,Vela Lavanda,Vela,200g,20,42.00,840.00,Instagram
+2026-07-29,Difusor Vidro Fosco,Difusor,100ml,2,68.00,136.00,Shopify
