@@ -1,15 +1,8 @@
-# Potes & Cia — Contexto Geral
-
-**Negócio:** Potes & Cia — loja de potes e garrafas de vidro (embalagens)
-**Uso:** Interno (marketing e atendimento da própria loja)
+# Contexto do Workspace
 
 ## Estrutura de pastas
 
 ```
 clientes/
-  vila-aromas/    — velas, difusores e sabonetes artesanais
+  potes-e-cia/    — potes e garrafas de vidro (embalagens)
 ```
-
-## Preferências gerais
-
-Tom informal e simpático, sem forçar gíria.

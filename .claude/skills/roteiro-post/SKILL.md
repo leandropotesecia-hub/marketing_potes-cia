@@ -106,6 +106,14 @@ subpasta usa o ano-mês em que o roteiro foi gerado (aqui não há "mês dos dad
 Mostrar o roteiro gerado no chat também, não só salvar — o usuário precisa revisar antes de
 considerar pronto (nenhum conteúdo vai direto pra publicação sem essa revisão).
 
+### Passo 5 — Sugerir atualizar o briefing, se for o caso
+
+Se, durante a conversa, o usuário forneceu uma informação nova e reutilizável que não estava
+em `AGENTS.md` nem `briefing.md` (ex: história/inspiração de um produto, detalhe de coleção,
+contexto de campanha), sugerir no fim da resposta que isso seja registrado no `briefing.md`
+do cliente — não fazer a atualização sozinho sem perguntar, só sugerir. Ex: "Essa história da
+Coleção Ipê não estava no briefing.md — quer que eu registre lá pra próximas vezes?"
+
 ---
 
 ## Regras
@@ -129,6 +137,11 @@ considerar pronto (nenhum conteúdo vai direto pra publicação sem essa revisã
   usada, pra chamar atenção na validação humana.
 - Se o cliente tiver mais de um produto que se encaixa no tema pedido, perguntar qual priorizar
   em vez de escolher sozinho
+- Nunca assumir **status ou disponibilidade** de um produto/campanha (se já foi lançado, está
+  em pré-venda, esgotado, é edição limitada, etc.) sem confirmação. Se o pedido do usuário
+  for ambíguo sobre isso (ex: "post sobre o lançamento" não deixa claro se já lançou ou vai
+  lançar), perguntar antes de escrever — não decidir sozinho nem deixar isso implícito no CTA
+  sem declarar a suposição na seção de Observações
 - Respeitar o tom da marca (ex: "evita tom vendedor") não é motivo pra esvaziar o CTA quando o
   objetivo é venda — são duas coisas diferentes: tom é *como* se fala, CTA é *se* direciona pra
   ação. Documentar na seção de Observações como o CTA foi calibrado entre os dois.
