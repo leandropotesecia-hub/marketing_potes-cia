@@ -31,17 +31,36 @@ refazer do zero ou só ajustar algo pontual.
 ### Caminho 1 — Link
 Usar WebFetch pra ler o site/perfil. Extrair: paleta de cores predominante, estilo de
 tipografia (serifada/sem serifa, arredondada/reta), tom visual geral (clean, colorido,
-minimalista, maximalista). Mostrar o que foi detectado antes de gravar:
+minimalista, maximalista), **e o padrão de composição das fotos de produto** (ver seção
+"Composição de fotos" abaixo). Mostrar o que foi detectado antes de gravar:
 > "Vi no site: fundo [cor], destaque em [cor], tipografia [estilo], sensação geral [adjetivo].
 > Bate com a marca? Quer ajustar algo?"
 
 ### Caminho 2 — Imagem
 Analisar a imagem anexada visualmente. Mesma lógica de mostrar o que foi detectado antes de
-gravar, igual ao Caminho 1.
+gravar, igual ao Caminho 1. Se a imagem for de um post/feed real (não só logo/arte isolada),
+analisar também a composição de foto (ver seção abaixo).
+
+### Composição de fotos (analisar sempre que houver post real disponível — link ou imagem)
+
+Além de cor/tipografia, observar como as fotos de produto aparecem nos posts reais:
+- **Cenário**: fundo de estúdio/abstrato (gradiente, cor sólida) ou cenário real (cozinha,
+  balcão, mesa, ambiente de uso)? Isso muda completamente o resultado de qualquer arte gerada
+  depois — não assumir um nem outro sem checar
+- **Preço**: aparece na maioria dos posts, às vezes, ou nunca?
+- **Chamada/CTA visual**: os posts têm frase de efeito grande no design, ou o texto fica só
+  na legenda (fora da imagem)?
+- **Menção a canais de venda** (Mercado Livre, Shopee, etc.) aparece dentro da arte, ou só na
+  legenda/bio?
+
+Registrar isso mesmo que a resposta seja "não é possível saber" — não inventar um padrão de
+composição sem ter visto post real o suficiente pra confirmar.
 
 ### Caminho 3 — Texto
 Perguntar, se a descrição vier vaga, por pelo menos: cor principal, cor de destaque/CTA, e um
-adjetivo de estilo geral (ex: "moderno e minimalista" vs "quente e artesanal").
+adjetivo de estilo geral (ex: "moderno e minimalista" vs "quente e artesanal"). Se o usuário
+não tiver posts reais pra referenciar composição, deixar essa seção como "não definido" em vez
+de supor.
 
 ### Caminho 4 — Ainda não tem nada definido
 Mostrar um exemplo preenchido pra servir de referência (não pra copiar literalmente, pra
@@ -77,6 +96,15 @@ Se o usuário preferir deixar em branco, gerar o arquivo com a estrutura vazia e
 
 ## Estilo geral
 [1-2 frases descrevendo a sensação visual — ex: "quente e artesanal" vs "clean e moderno"]
+
+## Composição de fotos
+- **Cenário:** [cenário real (cozinha, balcão, mesa...) / fundo de estúdio-abstrato / "não
+  definido"]
+- **Preço na arte:** [aparece na maioria dos posts / às vezes / nunca / "não definido"]
+- **Chamada/CTA visual na imagem:** [frase de efeito grande no design / só na legenda / "não
+  definido"]
+- **Canais de venda na arte:** [aparece dentro da imagem / só na legenda ou bio / "não
+  definido"]
 
 ## O que NUNCA fazer
 [lista de restrições visuais, se houver]

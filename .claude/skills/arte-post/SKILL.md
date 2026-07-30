@@ -35,9 +35,21 @@ Perguntar:
 > as cores da marca — sem tentar desenhar uma 'foto' do produto, pra não arriscar sair
 > diferente do produto de verdade."
 
-- **Se o usuário anexar foto real**: usar essa foto como base. Pode adicionar uma faixa/overlay
-  com texto (nome do produto, preço se houver no roteiro, CTA curto) por cima ou ao lado da
-  foto, seguindo as cores da marca — mas a foto do produto em si nunca é alterada/gerada.
+- **Se o usuário anexar foto real**: usar essa foto como base, **respeitando o padrão de
+  composição registrado em `design-guide.md`** (seção "Composição de fotos"):
+  - Se o padrão for **cenário real** (cozinha, balcão, mesa): manter a foto com seu fundo/
+    contexto original, sem isolar o produto num gradiente ou fundo abstrato — só adicionar
+    texto sobreposto de forma discreta (faixa superior/inferior), sem cobrir o cenário
+  - Se o padrão for **fundo de estúdio/abstrato**, ou não houver padrão definido: aí sim vale
+    isolar o produto sobre um fundo com as cores da marca
+  - Se `design-guide.md` não tiver essa seção preenchida, perguntar antes de decidir: "os
+    posts desse cliente costumam usar fundo de cozinha/mesa real, ou fundo mais gráfico/
+    abstrato? Não quero adivinhar isso"
+  - Preço: **mostrar por padrão** se o roteiro tiver essa informação, a menos que o usuário
+    tenha decidido explicitamente não mostrar (confirmar isso antes de omitir, não assumir)
+  - CTA/canais de venda (Mercado Livre, Shopee, site): **só incluir na arte se o
+    `design-guide.md` indicar que os posts reais costumam ter isso na imagem** — se a
+    informação só costuma aparecer na legenda/bio, não replicar isso dentro da arte
 - **Se o usuário mandar um link** (da página do produto, ou link direto da imagem): tentar
   obter a imagem exata daquela página/link — nunca substituir por uma imagem "parecida" achada
   por outro meio. Depois de obter (ou tentar obter), **mostrar a imagem encontrada e perguntar
@@ -52,8 +64,14 @@ Perguntar:
 Criar um HTML de card único (1080x1350, formato feed Instagram) usando:
 - Fundo e cor de destaque do `design-guide.md`
 - Nome do produto ou tema em destaque (tipografia bold/impacto, conforme o guia)
-- Frase-chave do roteiro (o hook ou a oferta principal, não o texto todo)
-- Preço, se o roteiro tiver e o usuário confirmar que deve aparecer
+- Uma chamada visual curta e de impacto — **não copiar literalmente a legenda do roteiro**;
+  a legenda foi escrita pra ser lida como texto corrido, a arte precisa de algo mais curto e
+  visualmente forte (ex: se a legenda fala em "garanta o lote da temporada", a arte pode usar
+  só "GARANTA O SEU" ou algo do mesmo espírito, mas adaptado pro formato de poucas palavras)
+- Preço: mostrar por padrão se o roteiro tiver essa informação, seguindo a mesma regra do
+  Passo 1 (confirmar antes de omitir, não assumir)
+- Canais de venda: só incluir se `design-guide.md` indicar que aparece nos posts reais —
+  nunca adicionar por padrão só porque está mencionado no roteiro
 - Logo, se o cliente tiver um cadastrado no design-guide
 
 Não inventar elementos visuais que sugiram ser "foto do produto" (sombra realista, textura de
