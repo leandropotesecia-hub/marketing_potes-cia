@@ -1,0 +1,114 @@
+---
+name: arte-post
+description: >
+  Cria a imagem/arte final pra acompanhar um roteiro de post já gerado pelo /roteiro-post.
+  Usa foto real do produto quando disponível; quando não tiver, cria um card promocional com
+  as cores e tipografia da marca (nunca fabrica uma "foto" de produto real). Renderiza via
+  Playwright. Use quando o usuário disser "cria a imagem do post", "faz a arte desse roteiro",
+  "gera a foto do produto pro post", "cria o visual do post", ou "imagem pra postagem".
+---
+
+# /arte-post — Imagem pra acompanhar o post
+
+## Passo 0 — Identificar cliente e roteiro
+
+Mesma lógica de identificação de cliente das outras skills. Depois, perguntar (se não estiver
+claro) qual roteiro essa imagem é pra acompanhar — listar os roteiros recentes em
+`clientes/[nome]/conteudo/roteiros/` se precisar ajudar o usuário a lembrar.
+
+Ler o roteiro escolhido pra saber: produto, mensagem principal, e se tem preço/promoção pra
+destacar.
+
+## Passo 1 — Checar identidade visual
+
+Ler `clientes/[nome]/marca/design-guide.md`.
+
+- **Se não existir ou estiver vazio**: avisar — "Esse cliente ainda não tem guia de marca.
+  Rodo /mapear-marca primeiro, ou você prefere que eu use um padrão neutro só pra essa arte?"
+- **Se existir**: usar as cores, tipografia e estilo definidos lá.
+
+## Passo 2 — Foto real ou card promocional
+
+Perguntar:
+> "Você tem uma foto real do produto (a Garrafa Âmbar Caçula, nesse caso)? Pode anexar aqui.
+> Se não tiver, eu crio um card promocional com o nome do produto e a chamada do post, usando
+> as cores da marca — sem tentar desenhar uma 'foto' do produto, pra não arriscar sair
+> diferente do produto de verdade."
+
+- **Se o usuário anexar foto real**: usar essa foto como base. Pode adicionar uma faixa/overlay
+  com texto (nome do produto, preço se houver no roteiro, CTA curto) por cima ou ao lado da
+  foto, seguindo as cores da marca — mas a foto do produto em si nunca é alterada/gerada.
+- **Se o usuário mandar um link** (da página do produto, ou link direto da imagem): tentar
+  obter a imagem exata daquela página/link — nunca substituir por uma imagem "parecida" achada
+  por outro meio. Depois de obter (ou tentar obter), **mostrar a imagem encontrada e perguntar
+  explicitamente se é a foto certa** antes de seguir. Se não conseguir obter a imagem exata,
+  dizer isso claramente ("não consegui baixar a imagem exata dessa página — pode anexar o
+  arquivo direto, ou me passar o link direto da imagem?") em vez de prosseguir com qualquer
+  substituto.
+- **Se não tiver foto**: seguir pro card promocional (Passo 3).
+
+## Passo 3 — Card promocional (quando não há foto)
+
+Criar um HTML de card único (1080x1350, formato feed Instagram) usando:
+- Fundo e cor de destaque do `design-guide.md`
+- Nome do produto ou tema em destaque (tipografia bold/impacto, conforme o guia)
+- Frase-chave do roteiro (o hook ou a oferta principal, não o texto todo)
+- Preço, se o roteiro tiver e o usuário confirmar que deve aparecer
+- Logo, se o cliente tiver um cadastrado no design-guide
+
+Não inventar elementos visuais que sugiram ser "foto do produto" (sombra realista, textura de
+vidro, reflexo) — o card deve parecer claramente uma peça gráfica/promocional, não uma
+fotografia.
+
+## Passo 4 — Renderizar
+
+Checar se Playwright está instalado:
+```bash
+npx playwright screenshot --help 2>/dev/null && echo "OK" || echo "INSTALAR"
+```
+Se precisar instalar, avisar o usuário que vai demorar ~30s na primeira vez:
+```bash
+npx playwright install chromium
+```
+
+Renderizar o HTML em PNG:
+```bash
+npx playwright screenshot --viewport-size=1080,1350 --full-page "file:///caminho/absoluto/arte.html" "arte.png"
+```
+
+Mostrar o resultado (a imagem gerada) pro usuário antes de considerar pronto.
+
+## Passo 5 — Salvar
+
+Salvar em `clientes/[nome]/conteudo/postagens/[ano]-[mes]/`:
+- `arte-[tema]-[data].html` (fonte editável)
+- `arte-[tema]-[data].png` (imagem final)
+
+Mostrar o plano antes de salvar, mesmo padrão de sempre.
+
+---
+
+## Regras
+
+- **Nunca fabricar uma "foto" de produto real** — se não houver foto de verdade, o resultado
+  é sempre um card/peça gráfica claramente promocional, nunca uma tentativa de simular
+  fotografia do produto
+- **Nunca substituir a foto real pela mais parecida disponível.** Se o usuário anexou ou
+  apontou uma foto específica (arquivo, print, ou link direto da página do produto), a imagem
+  usada precisa ser **exatamente aquela** — nunca uma imagem "similar" obtida por busca,
+  banco de imagens, ou qualquer fallback. Se não for tecnicamente possível obter a imagem
+  exata apontada pelo usuário (link quebrado, formato não suportado, etc.), **parar e avisar
+  explicitamente** — nunca prosseguir usando uma imagem parecida sem dizer que trocou.
+- **Antes de montar a arte, mostrar a imagem que será usada e pedir confirmação explícita**
+  de que é o produto certo (ex: "essa é a foto que vou usar — confere com o produto real?").
+  Isso vale mesmo quando a imagem veio de download automático a partir de um link — nunca
+  pular direto pra renderização sem esse checkpoint visual.
+- Se o usuário fornecer foto real, ela nunca é alterada digitalmente além de overlay de texto
+  (nada de "melhorar" ou redesenhar a foto)
+- Cores e tipografia seguem `design-guide.md` estritamente — nunca escolher paleta própria se
+  o cliente já tiver uma definida
+- Respeitar a seção "O que NUNCA fazer" do `design-guide.md`, se preenchida
+- Sempre mostrar a imagem renderizada antes de considerar a tarefa concluída — nenhuma arte
+  vai "direto pra pasta" sem o usuário ver o resultado
+- Esta skill só cria a imagem — nunca publica. Publicação é responsabilidade de uma skill
+  separada (ainda não construída)

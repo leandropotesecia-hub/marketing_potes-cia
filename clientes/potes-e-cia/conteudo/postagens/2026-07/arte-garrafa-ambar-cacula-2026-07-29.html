@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Garrafa Âmbar Caçula — Dia dos Pais</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  html, body {
+    width: 1080px;
+    height: 1350px;
+    overflow: hidden;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #0b1a2e;
+  }
+
+  .impact {
+    font-family: 'Arial Black', 'Segoe UI', Arial, sans-serif;
+    font-weight: 900;
+    font-stretch: condensed;
+  }
+
+  .canvas {
+    position: relative;
+    width: 1080px;
+    height: 1350px;
+    background: radial-gradient(circle at 50% 30%, #16273f 0%, #0b1a2e 65%, #081321 100%);
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .top-tag {
+    margin-top: 64px;
+    background: #e8a920;
+    color: #0b1a2e;
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    padding: 14px 40px;
+    border-radius: 6px;
+    text-transform: uppercase;
+  }
+
+  .headline {
+    margin-top: 44px;
+    font-size: 78px;
+    line-height: 1.02;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    padding: 0 60px;
+  }
+
+  .headline .accent {
+    color: #e8a920;
+  }
+
+  .subtitle {
+    margin-top: 22px;
+    font-size: 30px;
+    font-weight: 500;
+    color: #cdd7e5;
+    text-align: center;
+    padding: 0 110px;
+  }
+
+  .photo-wrap {
+    position: relative;
+    margin-top: 20px;
+    width: 700px;
+    height: 660px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  }
+
+  .photo-wrap::before {
+    content: "";
+    position: absolute;
+    bottom: 20px;
+    width: 480px;
+    height: 480px;
+    background: radial-gradient(circle, rgba(232,169,32,0.24) 0%, rgba(232,169,32,0) 70%);
+  }
+
+  .photo-wrap img {
+    position: relative;
+    height: 660px;
+    filter: drop-shadow(0 30px 30px rgba(0,0,0,0.45));
+  }
+
+  .feature-row {
+    display: flex;
+    gap: 28px;
+    margin-top: 18px;
+  }
+
+  .feature {
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(232,169,32,0.4);
+    border-radius: 10px;
+    padding: 16px 26px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .cta-bar {
+    margin-top: auto;
+    width: 100%;
+    background: #e8a920;
+    padding: 34px 0 42px;
+    text-align: center;
+  }
+
+  .cta-bar .cta-text {
+    font-size: 40px;
+    color: #0b1a2e;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  .cta-bar .cta-sub {
+    margin-top: 8px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #1a2a40;
+  }
+</style>
+</head>
+<body>
+  <div class="canvas">
+    <div class="top-tag impact">Dia dos Pais</div>
+
+    <div class="headline impact">Garrafa Âmbar<br><span class="accent">Caçula</span> 600ml</div>
+
+    <div class="subtitle">A hora é agora: garanta o lote da temporada de cerveja artesanal</div>
+
+    <div class="photo-wrap">
+      <img src="foto-garrafa-ambar-cacula.png" alt="Garrafa Âmbar Caçula 600ml">
+    </div>
+
+    <div class="feature-row">
+      <div class="feature">Vidro âmbar</div>
+      <div class="feature">Caixa c/ 24 un.</div>
+    </div>
+
+    <div class="cta-bar">
+      <div class="cta-text impact">Manda mensagem ou acessa o link na bio</div>
+      <div class="cta-sub">Mercado Livre · Shopee · Site próprio</div>
+    </div>
+  </div>
+</body>
+</html>
