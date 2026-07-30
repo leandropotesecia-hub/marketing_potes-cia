@@ -91,10 +91,40 @@
     filter: drop-shadow(0 30px 30px rgba(0,0,0,0.45));
   }
 
-  .feature-row {
+  .price-row {
     display: flex;
-    gap: 28px;
-    margin-top: 18px;
+    align-items: center;
+    gap: 24px;
+    margin-top: 14px;
+  }
+
+  .price-badge {
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(232,169,32,0.4);
+    border-radius: 12px;
+    padding: 14px 30px;
+    text-align: center;
+  }
+
+  .price-badge .label {
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #cdd7e5;
+    text-transform: uppercase;
+  }
+
+  .price-badge .value {
+    font-size: 48px;
+    font-weight: 900;
+    color: #e8a920;
+    line-height: 1.1;
+  }
+
+  .price-badge .value span {
+    font-size: 24px;
+    font-weight: 700;
+    color: #ffffff;
   }
 
   .feature {
@@ -114,7 +144,7 @@
     margin-top: auto;
     width: 100%;
     background: #e8a920;
-    padding: 34px 0 42px;
+    padding: 38px 0 46px;
     text-align: center;
   }
 
@@ -123,13 +153,6 @@
     color: #0b1a2e;
     text-transform: uppercase;
     letter-spacing: 0.5px;
-  }
-
-  .cta-bar .cta-sub {
-    margin-top: 8px;
-    font-size: 24px;
-    font-weight: 700;
-    color: #1a2a40;
   }
 </style>
 </head>
@@ -145,14 +168,17 @@
       <img src="foto-garrafa-ambar-cacula.png" alt="Garrafa Âmbar Caçula 600ml">
     </div>
 
-    <div class="feature-row">
+    <div class="price-row">
+      <div class="price-badge">
+        <div class="label">A partir de</div>
+        <div class="value impact">R$ 1,99 <span>un.</span></div>
+      </div>
       <div class="feature">Vidro âmbar</div>
       <div class="feature">Caixa c/ 24 un.</div>
     </div>
 
     <div class="cta-bar">
       <div class="cta-text impact">Manda mensagem ou acessa o link na bio</div>
-      <div class="cta-sub">Mercado Livre · Shopee · Site próprio</div>
     </div>
   </div>
 </body>

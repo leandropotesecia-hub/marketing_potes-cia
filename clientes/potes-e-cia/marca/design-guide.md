@@ -14,6 +14,14 @@
 ## Estilo geral
 Comercial, confiante e chamativo — preço e oferta sempre em destaque, com tom levemente comemorativo em marcos da marca. Nas linhas premium, ganha um toque de sofisticação e elegância.
 
+## Composição de fotos
+- **Cenário:** ambiente real (ex: mesa de madeira, fundo desfocado sugerindo bar/adega com garrafas) — não é fundo de estúdio/abstrato
+- **Preço na arte:** aparece — badge de destaque (azul-marinho + amarelo-mostarda), formato "A PARTIR DE R$ [valor] un"
+- **Chamada/CTA visual na imagem:** sim, frase de efeito grande faz parte do design (não fica só na legenda)
+- **Canais de venda na arte:** não observado no post analisado (nem Mercado Livre, nem Shopee aparecem dentro da imagem)
+- **Detalhe extra observado:** referência do produto (Ref.) e quantidade por caixa também aparecem como badge/selo na arte
+- **Baseado em:** 1 post real (linha Grandeur) — padrão pode não representar todas as linhas do catálogo; vale revisitar com mais posts se surgir divergência
+
 ## O que NUNCA fazer
 Nenhuma restrição visual explícita definida ainda.
 
