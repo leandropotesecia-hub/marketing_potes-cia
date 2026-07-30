@@ -24,12 +24,25 @@ refazer a entrevista inteira ou só atualizar uma categoria específica.
 Fazer as perguntas em sequência, **uma por vez**, esperando a resposta antes de seguir pra
 próxima. Se a resposta vier vaga, fazer uma pergunta de acompanhamento antes de continuar.
 
-Em qualquer pergunta, o usuário pode responder de três formas — todas válidas:
+Em qualquer pergunta, o usuário pode responder de **cinco** formas — todas válidas:
 - **Texto corrido**, respondendo direto
 - **Anexando um arquivo ou planilha** (ex: catálogo de produtos, lista de datas comemorativas)
   — ler o conteúdo e extrair a informação relevante pra aquela categoria
+- **Mandando um link** (site, Instagram, qualquer página relevante) — ler via WebFetch e
+  extrair a informação relevante pra aquela categoria
+- **Anexando uma imagem** (print, foto, arte) — analisar visualmente e extrair a informação
+  relevante pra aquela categoria
 - **"Não sei" / "não tenho essa informação"** — aceitar, marcar como pendente no arquivo
   gerado, e seguir pra próxima pergunta sem insistir
+
+Se o usuário mandar **mais de uma fonte pra mesma pergunta** (ex: link + imagem) e elas
+divergirem entre si, não escolher uma sozinho — explicar a diferença encontrada (com detalhe
+específico de cada fonte) e perguntar qual usar, ou se as duas coexistem por propósitos
+diferentes.
+
+Em qualquer um dos formatos que não seja texto direto (arquivo, link, imagem), **sempre
+mostrar o que foi entendido/extraído antes de aceitar como resposta final** — nunca gravar
+direto sem esse retorno pro usuário confirmar ou corrigir.
 
 ### Pergunta 0 — Nome do cliente
 "Qual é o nome do cliente ou negócio que vamos mapear?"
