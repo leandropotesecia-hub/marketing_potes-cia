@@ -19,7 +19,9 @@ Comercial, confiante e chamativo — preço e oferta sempre em destaque, com tom
 - **Preço na arte:** aparece — badge de destaque (azul-marinho + amarelo-mostarda), formato "A PARTIR DE R$ [valor] un"
 - **Chamada/CTA visual na imagem:** sim, frase de efeito grande faz parte do design (não fica só na legenda)
 - **Canais de venda na arte:** não observado no post analisado (nem Mercado Livre, nem Shopee aparecem dentro da imagem)
-- **Detalhe extra observado:** referência do produto (Ref.) e quantidade por caixa também aparecem como badge/selo na arte
+- **Padrão exato de badges (dois badges distintos, não um só):**
+  1. **Badge de referência + preço:** "Ref.: [número] - [capacidade]ml" na linha de cima, "A PARTIR DE R$ [valor] un" em destaque embaixo
+  2. **Badge de quantidade por caixa:** separado do badge de referência/preço, com ícone de caixa + "Caixa c/ [quantidade]"
 - **Baseado em:** 1 post real (linha Grandeur) — padrão pode não representar todas as linhas do catálogo; vale revisitar com mais posts se surgir divergência
 
 ## O que NUNCA fazer

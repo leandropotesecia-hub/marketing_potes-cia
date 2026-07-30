@@ -11,7 +11,7 @@ Todos os produtos de potes e garrafas são de material vítreo (vidro).
   - Aromatizadores/difusores (250ml)
   - Utilitários domésticos (200ml-3.000ml)
   - Fármacos (embalagens para laboratórios/farmácias de manipulação)
-  - Cerveja artesanal: **Garrafa de Vidro Âmbar Caçula 600ml** (caixa c/ 24 unidades) — linha usada na sazonalidade de Dia dos Pais (ver Sazonalidade)
+  - Cerveja artesanal: **Garrafa de Vidro Âmbar Caçula 600ml** — Ref.: 137-STM-NSA (caixa c/ 24 unidades) — linha usada na sazonalidade de Dia dos Pais (ver Sazonalidade)
 
 Variações principais por produto: capacidade em ml, quantidade por caixa (6 a 72 unidades), cor do vidro (incolor, verde, âmbar), formato (quadrado, redondo, retangular) e tipo de tampa/lacre compatível. Também há modelos premium e importados.
 
