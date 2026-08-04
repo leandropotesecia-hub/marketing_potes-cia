@@ -15,6 +15,10 @@ description: >
 - **Contexto do cliente:** `clientes/[nome]/AGENTS.md` (resumo) — e `clientes/[nome]/briefing.md`
   quando precisar de mais detalhe do que o resumo tem (ex: variações específicas de produto,
   histórico completo de sazonalidade)
+- **Catálogo de produtos:** `clientes/<cliente>/dados/catalogo-produtos.xlsx` — fonte
+  de verdade pra nome exato, capacidade, quantidade por caixa, condição do vidro e
+  utilizações sugeridas. Nunca inventar essas informações; se o produto não estiver
+  no catálogo, perguntar antes de escrever o roteiro.
 
 ---
 

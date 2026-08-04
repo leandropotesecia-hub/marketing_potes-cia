@@ -17,6 +17,21 @@ Variações principais por produto: capacidade em ml, quantidade por caixa (6 a 
 
 *(Fonte: catálogo extraído do site potesecia.com.br, validado pelo cliente)*
 
+## Catálogo de produtos
+
+Fonte de verdade: `dados/catalogo-produtos.xlsx` (98 produtos, atualizado em 2026-08).
+Contém código, tipo, nome, condição do vidro, quantidade por caixa, descrição e
+utilizações sugeridas por categoria (Azeites, Cachaças, Cerveja Artesanal, etc.).
+
+**Condição do vidro**: produtos "Novo de fábrica" vêm direto da fábrica; "Recondicionado"
+são vidros usados, lavados e reaproveitados. Isso é uma característica real do produto
+(não status de conteúdo já publicado) — vale considerar como possível ângulo de
+sustentabilidade em conteúdo futuro.
+
+Qualquer roteiro, arte ou pauta que mencione produto específico deve consultar esse
+catálogo antes de escrever nome, capacidade, quantidade por caixa ou utilização — nunca
+inventar essas informações. Se o produto não estiver no catálogo, perguntar antes de seguir.
+
 ## Público-alvo
 Dois grandes perfis:
 

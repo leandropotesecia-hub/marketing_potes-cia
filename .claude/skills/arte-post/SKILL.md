@@ -10,6 +10,13 @@ description: >
 
 # /arte-post — Imagem pra acompanhar o post
 
+## Dependências
+
+- **Catálogo de produtos:** `clientes/<cliente>/dados/catalogo-produtos.xlsx` — conferir
+  nome exato e capacidade do produto antes de gerar a arte. Continua valendo a regra de
+  nunca substituir a foto do produto sem confirmação do usuário — o catálogo informa o
+  texto, não substitui a foto real.
+
 ## Passo 0 — Identificar cliente e roteiro
 
 Mesma lógica de identificação de cliente das outras skills. Depois, perguntar (se não estiver

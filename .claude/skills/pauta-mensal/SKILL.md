@@ -22,6 +22,9 @@ description: >
 - **Tom de voz da operação:** `_contexto/preferencias.md`
 - **Rotação de temas:** `references/temas-recorrentes.md` (nesta pasta)
 - **Formato de saída:** `references/formato-planilhas.md` (nesta pasta)
+- **Catálogo de produtos:** `clientes/<cliente>/dados/catalogo-produtos.xlsx` — usar
+  como referência pra escolher produto(s) destaque do mês (por categoria de utilização
+  ou condição do vidro), nunca inventar produto que não esteja listado.
 
 ---
 
